@@ -51,6 +51,12 @@ Rateo is an independent tool. It does not lend money, does not pay installments,
 - [Klarna y Scalapay: fechas de pago en 3 plazos comparadas](https://rateobnpl.com/es/guias/klarna-o-scalapay-fechas-de-pago-comparadas/)
 - [Rateo, hojas de cálculo y otras apps BNPL: cómo elegir](https://rateobnpl.com/es/guias/rateo-vs-hojas-de-calculo-y-otras-apps-bnpl/)
 
+## Tools
+- [BNPL payment calendar calculator (en)](https://rateobnpl.com/tools/bnpl-payment-calendar-calculator/)
+- [Calcolatore del calendario delle rate (it)](https://rateobnpl.com/it/strumenti/calcolatore-calendario-rate/)
+- [Ratenkalender-Rechner (de)](https://rateobnpl.com/de/rechner/ratenkalender/)
+- [Calculadora del calendario de cuotas (es)](https://rateobnpl.com/es/herramientas/calculadora-calendario-cuotas/)
+
 ## Main pages
 - [Home (English)](https://rateobnpl.com/)
 - [Home (Italiano)](https://rateobnpl.com/it/)

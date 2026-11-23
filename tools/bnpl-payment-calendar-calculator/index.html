@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BNPL payment calendar calculator: Klarna, PayPal, Scalapay, Afterpay – Rateo</title><meta name="description" content="Free calculator: add your pay in 3 or pay in 4 purchases and see every due date in one calendar, with payments that fall close together highlighted. Runs in your browser, nothing is saved.">
+<link rel="canonical" href="https://rateobnpl.com/tools/bnpl-payment-calendar-calculator/"><link rel="alternate" hreflang="en" href="https://rateobnpl.com/tools/bnpl-payment-calendar-calculator/"><link rel="alternate" hreflang="it" href="https://rateobnpl.com/it/strumenti/calcolatore-calendario-rate/"><link rel="alternate" hreflang="de" href="https://rateobnpl.com/de/rechner/ratenkalender/"><link rel="alternate" hreflang="es" href="https://rateobnpl.com/es/herramientas/calculadora-calendario-cuotas/"><link rel="alternate" hreflang="x-default" href="https://rateobnpl.com/tools/bnpl-payment-calendar-calculator/">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="/css/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "BNPL payment calendar calculator", "description": "Free calculator: add your pay in 3 or pay in 4 purchases and see every due date in one calendar, with payments that fall close together highlighted. Runs in your browser, nothing is saved.", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "en", "url": "https://rateobnpl.com/tools/bnpl-payment-calendar-calculator/", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+</head><body>
+<header><div class="wrap bar"><a class="brand" href="/"><img src="/img/icon-128.png" width="36" height="36" alt=""><span>Rateo<span class="bs"> - BNPL Tracker</span></span></a><nav aria-label="Main"><span class="lang"><a href="/tools/bnpl-payment-calendar-calculator/" hreflang="en" lang="en" aria-current="page">EN</a><a href="/it/strumenti/calcolatore-calendario-rate/" hreflang="it" lang="it">IT</a><a href="/de/rechner/ratenkalender/" hreflang="de" lang="de">DE</a><a href="/es/herramientas/calculadora-calendario-cuotas/" hreflang="es" lang="es">ES</a></span></nav></div></header>
+<main class="wrap guide calc"><a class="back" href="/guides/">← All guides</a><h1>BNPL payment calendar calculator</h1><p>Add your pay later purchases and see every due date in one calendar. Payments that fall close together are highlighted. It runs in your browser: nothing is sent or saved.</p><div class="row"><div style="max-width:160px"><label for="calc-cur">Currency</label><select id="calc-cur"><option value="EUR">EUR</option><option value="USD">USD</option><option value="GBP">GBP</option></select></div></div><div id="calc-plans"></div><div class="row"><button type="button" id="calc-add">+ Add another plan</button></div><div id="calc-out" aria-live="polite"></div><div class="guide-cta"><h2>Try this in the Rateo app</h2><p>Rateo does this for every plan you add: the calendar fills in by itself and you get a reminder 48 and 24 hours before each payment. No account, no bank access, and your data stays on your phone. Free up to 3 active plans.</p><div class="stores"><a href="https://apps.apple.com/app/id6809891707?pt=129429220&amp;ct=website_calc_en&amp;mt=8" rel="noopener"><img src="/badges/appstore-en.svg" alt="App Store" width="156" height="52"></a><a href="https://play.google.com/store/apps/details?id=it.rateo.app&amp;referrer=utm_source%3Dwebsite%26utm_medium%3Dweb%26utm_campaign%3Dcalc_en" rel="noopener"><img src="/badges/googleplay-en.png" alt="Google Play" width="175" height="52"></a></div><p class="note">Available for iPhone and Android</p></div><h2>How it works</h2><ol><li>Pick the provider and plan: the number of payments and the interval are filled in for you.</li><li>Add every plan you have. The calendar merges them and sorts them by date.</li><li>Look at the highlighted stretch: it is where the most money leaves your account in the shortest time.</li></ol><h2>What it covers</h2><ul><li>Schedules for Klarna (IT, DE, ES, US), PayPal (IT, ES, DE, US), Scalapay and Afterpay, following the official pages we checked on 23 November 2026. Start dates depend on the store and on your approval.</li><li>Interest-bearing financing, late fees and country-specific variants are not calculated.</li><li>Not legal or financial advice. Rateo is not affiliated with these providers.</li></ul></main>
+<script type="application/json" id="calc-data">{"locale": "en-US", "currency": "USD", "presets": [{"id": "klarna_it", "n": 3, "step": "d30", "off": 0, "label": "Klarna – Paga in 3 rate (IT)"}, {"id": "klarna_de", "n": 3, "step": "d30", "off": 0, "label": "Klarna – 3 Teilzahlungen (DE)"}, {"id": "klarna_es", "n": 3, "step": "d30", "off": 0, "label": "Klarna – Paga en 3 plazos (ES)"}, {"id": "klarna_us", "n": 4, "step": "d14", "off": 0, "label": "Klarna – Pay in 4 (US)"}, {"id": "klarna_30", "n": 1, "step": "d30", "off": 30, "label": "Klarna – 30 Tage / 30 días (DE, ES)"}, {"id": "paypal_it", "n": 3, "step": "m1", "off": 0, "label": "PayPal – Paga in 3 rate (IT)"}, {"id": "paypal_es", "n": 3, "step": "m1", "off": 0, "label": "PayPal – Paga en 3 plazos (ES)"}, {"id": "paypal_us", "n": 4, "step": "d14", "off": 0, "label": "PayPal – Pay in 4 (US)"}, {"id": "paypal_30", "n": 1, "step": "d30", "off": 30, "label": "PayPal – Zahlung nach 30 Tagen (DE)"}, {"id": "scalapay3", "n": 3, "step": "m1", "off": 0, "label": "Scalapay – 3 monthly payments"}, {"id": "scalapay4", "n": 4, "step": "m1", "off": 0, "label": "Scalapay – 4 monthly payments (IT, ES)"}, {"id": "afterpay", "n": 4, "step": "d14", "off": 0, "label": "Afterpay (US)"}, {"id": "custom", "n": 0, "step": "", "off": 0, "label": "Other (set it yourself)"}], "str": {"title": "BNPL payment calendar calculator: Klarna, PayPal, Scalapay, Afterpay", "desc": "Free calculator: add your pay in 3 or pay in 4 purchases and see every due date in one calendar, with payments that fall close together highlighted. Runs in your browser, nothing is saved.", "h1": "BNPL payment calendar calculator", "intro": "Add your pay later purchases and see every due date in one calendar. Payments that fall close together are highlighted. It runs in your browser: nothing is sent or saved.", "provider": "Provider and plan", "total": "Purchase total", "start": "Start date", "startHelp": "Purchase date, or shipping date if the store charges then.", "name": "Name (optional)", "namePh": "e.g. headphones", "count": "Number of payments", "interval": "Interval", "i14": "2 weeks", "i30": "30 days", "im1": "1 month", "add": "+ Add another plan", "remove": "Remove plan", "currency": "Currency", "hintN": "{n} payments, one {every}, the first on the start date.", "hint1": "1 payment, {off} days after the start date.", "ev14": "every 2 weeks", "ev30": "every 30 days", "evm1": "every month", "plan": "Plan", "resultH": "Your payment calendar", "date": "Date", "amount": "Amount", "pay": "Payment", "totalAll": "Total", "heavy": "Heaviest stretch: {sum} in {count} payments between {from} and {to}.", "none": "No payments overlap within 5 days of each other.", "monthly": "Monthly totals", "ics": "Add to my calendar (.ics)", "empty": "Enter a purchase total to see the calendar.", "note": "Estimates based on the typical schedule of each plan. Your plan summary or the provider's app always prevails. Fees, interest and late charges are not included, and the provider may split rounding cents differently.", "ctaH": "Try this in the Rateo app", "ctaP": "Rateo does this for every plan you add: the calendar fills in by itself and you get a reminder 48 and 24 hours before each payment. No account, no bank access, and your data stays on your phone. Free up to 3 active plans.", "howH": "How it works", "limH": "What it covers", "back": "← All guides", "guides": "Guides"}, "def": "klarna_us"}</script><script>
+(function(){
+var C=JSON.parse(document.getElementById('calc-data').textContent);
+var P={};C.presets.forEach(function(p){P[p.id]=p;});
+function addDays(d,k){return new Date(d.getFullYear(),d.getMonth(),d.getDate()+k);}
+function addMonths(d,k){var y=d.getFullYear(),m=d.getMonth()+k,l=new Date(y,m+1,0).getDate();return new Date(y,m,Math.min(d.getDate(),l));}
+function parseDate(s){var p=(s||'').split('-');if(p.length!==3)return null;var d=new Date(+p[0],+p[1]-1,+p[2]);return isNaN(d)?null:d;}
+function pad(n){return (n<10?'0':'')+n;}
+function iso(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());}
+function dayNum(d){return Math.round(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())/86400000);}
+function stepOf(plan){var p=P[plan.preset];if(p.id==='custom')return {n:Math.max(1,Math.min(12,parseInt(plan.n,10)||1)),step:plan.step,off:0};return {n:p.n,step:p.step,off:p.off};}
+function schedule(plan){
+  var s=stepOf(plan),start=parseDate(plan.start),cents=Math.round((parseFloat(plan.total)||0)*100);
+  if(!start||cents<=0)return [];
+  var base=Math.floor(cents/s.n),rest=cents-base*s.n,out=[];
+  for(var i=0;i<s.n;i++){
+    var d;
+    if(s.step==='m1')d=addMonths(start,i);else d=addDays(start,s.off+i*(s.step==='d14'?14:30));
+    out.push({date:d,cents:base+(i===0?rest:0),i:i+1,n:s.n});
+  }
+  return out;
+}
+function allEvents(plans){
+  var ev=[];
+  plans.forEach(function(pl,idx){
+    schedule(pl).forEach(function(e){e.plan=idx;e.label=pl.name||(C.str.plan+' '+(idx+1)+' · '+P[pl.preset].label);ev.push(e);});
+  });
+  ev.sort(function(a,b){return a.date-b.date||a.plan-b.plan;});
+  return ev;
+}
+function heaviest(ev){
+  var best=null;
+  for(var i=0;i<ev.length;i++){
+    var a=dayNum(ev[i].date),sum=0,cnt=0,last=i;
+    for(var j=i;j<ev.length;j++){if(dayNum(ev[j].date)-a<=4){sum+=ev[j].cents;cnt++;last=j;}else break;}
+    if(cnt>=2&&(!best||sum>best.sum))best={sum:sum,count:cnt,from:i,to:last};
+  }
+  return best;
+}
+if(typeof module!=='undefined'){module.exports={schedule:schedule,allEvents:allEvents,heaviest:heaviest,addMonths:addMonths,addDays:addDays};}
+if(typeof document==='undefined'||!document.getElementById('calc-plans'))return;
+
+var nf=new Intl.NumberFormat(C.locale,{style:'currency',currency:C.currency});
+function money(c){return nf.format(c/100);}
+function fdate(d,long){return d.toLocaleDateString(C.locale,long?{weekday:'short',day:'numeric',month:'short',year:'numeric'}:{day:'numeric',month:'short'});}
+var plans=[],root=document.getElementById('calc-plans');
+function mk(t,a,h){var e=document.createElement(t);if(a)for(var k in a)e.setAttribute(k,a[k]);if(h!==undefined)e.textContent=h;return e;}
+function field(label,input,help){var w=mk('div');var l=mk('label',{'for':input.id},label);w.appendChild(l);w.appendChild(input);if(help)w.appendChild(mk('p',{'class':'help'},help));return w;}
+function hintFor(plan){
+  var s=stepOf(plan);if(plan.preset==='custom')return '';
+  if(s.n===1)return C.str.hint1.replace('{off}',s.off);
+  var ev=s.step==='d14'?C.str.ev14:(s.step==='d30'?C.str.ev30:C.str.evm1);
+  return C.str.hintN.replace('{n}',s.n).replace('{every}',ev);
+}
+var seq=0;
+function addPlan(){
+  var plan={preset:C.def,total:'',start:iso(new Date()),name:'',n:3,step:'d30'};plans.push(plan);
+  var id='p'+(++seq),card=mk('div',{'class':'plan'});
+  var rm=mk('button',{type:'button','class':'rm'},C.str.remove);rm.addEventListener('click',function(){var k=plans.indexOf(plan);plans.splice(k,1);root.removeChild(card);refresh();});
+  card.appendChild(rm);
+  var g=mk('div',{'class':'grid'});
+  var sel=mk('select',{id:id+'s'});C.presets.forEach(function(p){var o=mk('option',{value:p.id},p.label);if(p.id===plan.preset)o.selected=true;sel.appendChild(o);});
+  var tot=mk('input',{id:id+'t',type:'number',min:'0',step:'0.01',inputmode:'decimal',placeholder:'0.00'});
+  var st=mk('input',{id:id+'d',type:'date',value:plan.start});
+  var nm=mk('input',{id:id+'n',type:'text',maxlength:'40',placeholder:C.str.namePh});
+  g.appendChild(field(C.str.provider,sel));g.appendChild(field(C.str.total,tot));g.appendChild(field(C.str.start,st,C.str.startHelp));g.appendChild(field(C.str.name,nm));
+  var cn=mk('input',{id:id+'c',type:'number',min:'1',max:'12',step:'1',value:'3'});
+  var ci=mk('select',{id:id+'i'});[['d14',C.str.i14],['d30',C.str.i30],['m1',C.str.im1]].forEach(function(x){var o=mk('option',{value:x[0]},x[1]);if(x[0]==='d30')o.selected=true;ci.appendChild(o);});
+  var cw=mk('div',{'class':'grid'});cw.style.display='none';cw.style.marginTop='12px';cw.appendChild(field(C.str.count,cn));cw.appendChild(field(C.str.interval,ci));
+  var hint=mk('p',{'class':'hint'},hintFor(plan));
+  card.appendChild(g);card.appendChild(cw);card.appendChild(hint);root.appendChild(card);
+  function sync(){plan.preset=sel.value;plan.total=tot.value;plan.start=st.value;plan.name=nm.value.trim();plan.n=cn.value;plan.step=ci.value;cw.style.display=plan.preset==='custom'?'grid':'none';hint.textContent=hintFor(plan);refresh();}
+  [sel,tot,st,nm,cn,ci].forEach(function(e){e.addEventListener('input',sync);e.addEventListener('change',sync);});
+  refresh();
+}
+function refresh(){
+  var rmAll=root.querySelectorAll('.rm');for(var i=0;i<rmAll.length;i++)rmAll[i].style.display=plans.length>1?'':'none';
+  var out=document.getElementById('calc-out'),ev=allEvents(plans);out.textContent='';
+  if(!ev.length){out.appendChild(mk('p',{'class':'small'},C.str.empty));return;}
+  out.appendChild(mk('h2',null,C.str.resultH));
+  var hv=heaviest(ev),hot={};
+  if(hv){for(var k=hv.from;k<=hv.to;k++)hot[k]=1;out.appendChild(mk('div',{'class':'alert'},C.str.heavy.replace('{sum}',money(hv.sum)).replace('{count}',hv.count).replace('{from}',fdate(ev[hv.from].date,true)).replace('{to}',fdate(ev[hv.to].date,true))));}
+  else out.appendChild(mk('div',{'class':'okmsg'},C.str.none));
+  var wrap=mk('div',{'class':'tw'}),tb=mk('table'),th=mk('thead'),hr=mk('tr');
+  [C.str.date,C.str.plan,C.str.pay,C.str.amount].forEach(function(h,ix){var c=mk('th',ix===3?{'class':'num'}:null,h);hr.appendChild(c);});th.appendChild(hr);tb.appendChild(th);
+  var body=mk('tbody'),sum=0;
+  ev.forEach(function(e,ix){var tr=mk('tr',hot[ix]?{'class':'hot'}:null);tr.appendChild(mk('td',null,fdate(e.date,true)));tr.appendChild(mk('td',null,e.label));tr.appendChild(mk('td',null,e.i+'/'+e.n));tr.appendChild(mk('td',{'class':'num'},money(e.cents)));body.appendChild(tr);sum+=e.cents;});
+  var ft=mk('tr');ft.appendChild(mk('th',{colspan:'3'},C.str.totalAll));ft.appendChild(mk('th',{'class':'num'},money(sum)));body.appendChild(ft);
+  tb.appendChild(body);wrap.appendChild(tb);out.appendChild(wrap);
+  var months={},order=[];ev.forEach(function(e){var key=e.date.getFullYear()+'-'+pad(e.date.getMonth()+1);if(!(key in months)){months[key]=0;order.push([key,e.date]);}months[key]+=e.cents;});
+  out.appendChild(mk('h3',null,C.str.monthly));
+  var ul=mk('ul');order.forEach(function(o){ul.appendChild(mk('li',null,o[1].toLocaleDateString(C.locale,{month:'long',year:'numeric'})+': '+money(months[o[0]])));});out.appendChild(ul);
+  var row=mk('div',{'class':'row'}),b=mk('button',{type:'button','class':'primary'},C.str.ics);b.addEventListener('click',function(){download(ev);});row.appendChild(b);out.appendChild(row);
+  out.appendChild(mk('p',{'class':'small'},C.str.note));
+}
+function esc(s){return String(s).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,' ');}
+function download(ev){
+  var L=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Rateo//Calculator//EN','CALSCALE:GREGORIAN'],now=new Date(),stamp=now.getUTCFullYear()+pad(now.getUTCMonth()+1)+pad(now.getUTCDate())+'T'+pad(now.getUTCHours())+pad(now.getUTCMinutes())+pad(now.getUTCSeconds())+'Z';
+  ev.forEach(function(e,ix){
+    var d=e.date,ds=d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate()),n=addDays(d,1),ns=n.getFullYear()+pad(n.getMonth()+1)+pad(n.getDate());
+    var sm=esc(e.label+' '+e.i+'/'+e.n+': '+money(e.cents));
+    L.push('BEGIN:VEVENT','UID:rateo-calc-'+now.getTime()+'-'+ix+'@rateobnpl.com','DTSTAMP:'+stamp,'DTSTART;VALUE=DATE:'+ds,'DTEND;VALUE=DATE:'+ns,'SUMMARY:'+sm,'BEGIN:VALARM','ACTION:DISPLAY','DESCRIPTION:'+sm,'TRIGGER:-P1D','END:VALARM','END:VEVENT');
+  });
+  L.push('END:VCALENDAR');
+  var blob=new Blob([L.join('\r\n')],{type:'text/calendar;charset=utf-8'}),a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);a.download='rateo-payment-calendar.ics';document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);document.body.removeChild(a);},500);
+}
+document.getElementById('calc-add').addEventListener('click',addPlan);
+var cur=document.getElementById('calc-cur');cur.value=C.currency;cur.addEventListener('change',function(){C.currency=cur.value;nf=new Intl.NumberFormat(C.locale,{style:'currency',currency:C.currency});refresh();});
+addPlan();
+})();
+</script>
+<footer class="site-foot"><span class="blob b1" data-p="-0.12" aria-hidden="true"></span><div class="wrap">
+<div class="fgrid">
+<div class="fbrand"><a class="brand" href="/"><img src="/img/icon-128.png" width="40" height="40" alt=""><span>Rateo<span class="bs"> - BNPL Tracker</span></span></a><p class="ftag">Every pay later plan. One app.</p><p class="fmail"><a href="mailto:info@rateobnpl.com">info@rateobnpl.com</a></p></div>
+<div class="fcol"><h3>Explore</h3><a href="/#features">Features</a><a href="/#screens">Screenshots</a><a href="/#pro">Pro</a><a href="/#faq">FAQ</a><a href="/guides/">Guides</a><a href="/tools/bnpl-payment-calendar-calculator/">Payment calendar calculator</a></div>
+<div class="fcol"><h3>Legal</h3><a href="/privacy/">Privacy Policy</a><a href="/data-deletion/">Data deletion</a><a href="/support/">Support</a></div>
+<div class="fcol fsoc"><h3>Social</h3><a href="https://www.instagram.com/rateo_bnpl_tracker/" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg><span><b>Instagram</b> @rateo_bnpl_tracker</span></a><a href="https://www.tiktok.com/@rateo.bnpl.tracker" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.3 2.6 2 4.4 5 4.7"/></svg><span><b>TikTok</b> @rateo.bnpl.tracker</span></a><a href="https://www.youtube.com/@Rateo-BNPLTracker" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor"/></svg><span><b>YouTube</b> @Rateo-BNPLTracker</span></a></div>
+</div>
+<div class="fbottom"><p class="fdisc">Rateo is not affiliated with Klarna, Afterpay, PayPal, Amazon, Scalapay, Shop Pay, Clearpay, Affirm, Alma or Zip.<br>All trademarks belong to their respective owners. App Store is a service mark of Apple Inc. Google Play is a trademark of Google LLC.</p><p>© 2026 Rateo - BNPL Tracker</p></div>
+</div></footer>
+</body></html>
