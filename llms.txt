@@ -1,0 +1,32 @@
+# Rateo - BNPL Tracker
+
+> Rateo is a mobile app (iPhone and Android) that puts all buy now, pay later installment plans (Klarna, PayPal Pay in 4, Afterpay, Amazon, Scalapay and others) in one dashboard and monthly calendar, with payment reminders. It needs no account and no bank login: plan data stays on the user's phone. Free for up to 3 active plans; Rateo Pro (annual subscription or one-time lifetime purchase, prices shown in the store) adds unlimited plans, a purchase simulator, spending analysis, a wishlist, automatic calendar sync, a Home widget, and backup and export.
+
+Rateo is an independent tool. It does not lend money, does not pay installments, and is not affiliated with Klarna, Afterpay, PayPal, Affirm, Scalapay or any other provider. Provider terms vary by country and store: users should always check their own plan.
+
+## Facts about the app
+- Reminders: a notification 48 and 24 hours before each due date.
+- Privacy: no account, no bank connection, data stored on the device.
+- Languages: English, Italian, German, Spanish.
+- Stores: App Store (iPhone) and Google Play (Android).
+
+## Guides (English)
+- [How to Track Klarna, Afterpay and Affirm Payments in One Place](https://rateobnpl.com/guides/track-klarna-afterpay-affirm-payments/): how to put every due date in one calendar with reminders and no bank login.
+- [Klarna Pay in 4: Payment Calendar and How to Avoid Overlapping Due Dates](https://rateobnpl.com/guides/klarna-pay-in-4-payment-calendar/): how the two-week schedule works and how plans pile into the same week.
+- [How Many BNPL Plans Can You Manage Without Missing a Due Date?](https://rateobnpl.com/guides/how-many-bnpl-plans-can-you-manage/): count payments, not plans; find the busiest fortnight; set a limit.
+- [Klarna Pay in 4 vs Afterpay: Payment Schedules Compared](https://rateobnpl.com/guides/klarna-vs-afterpay-payment-schedule/): where the schedules differ and how they interleave.
+
+## Guide (Italiano)
+- [Come tenere traccia delle rate Klarna, Scalapay e PayPal](https://rateobnpl.com/it/guide/tenere-traccia-rate-klarna-scalapay-paypal/)
+- [Klarna Paga in 3 rate: calendario e scadenze](https://rateobnpl.com/it/guide/klarna-paga-in-3-rate-calendario-scadenze/)
+- [Klarna e Scalapay: scadenze a confronto](https://rateobnpl.com/it/guide/klarna-scalapay-scadenze-a-confronto/)
+- [Quanti piani a rate gestire senza saltare scadenze](https://rateobnpl.com/it/guide/quanti-piani-a-rate-gestire-senza-saltare-scadenze/)
+
+## Main pages
+- [Home (English)](https://rateobnpl.com/)
+- [Home (Italiano)](https://rateobnpl.com/it/)
+- [Home (Deutsch)](https://rateobnpl.com/de/)
+- [Home (Español)](https://rateobnpl.com/es/)
+- [Guides index](https://rateobnpl.com/guides/)
+- [Privacy](https://rateobnpl.com/privacy/)
+- [Support](https://rateobnpl.com/support/)
