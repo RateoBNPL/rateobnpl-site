@@ -16,17 +16,31 @@ Rateo is an independent tool. It does not lend money, does not pay installments,
 - [How Many BNPL Plans Can You Manage Without Missing a Due Date?](https://rateobnpl.com/guides/how-many-bnpl-plans-can-you-manage/): count payments, not plans; find the busiest fortnight; set a limit.
 - [Klarna Pay in 4 vs Afterpay: Payment Schedules Compared](https://rateobnpl.com/guides/klarna-vs-afterpay-payment-schedule/): where the schedules differ and how they interleave.
 
+- [Rateo vs spreadsheets and other BNPL trackers: how to choose](https://rateobnpl.com/guides/rateo-vs-spreadsheets-and-other-bnpl-trackers/): what to compare when picking a way to track installment plans.
+
 ## Guide (Italiano)
 - [Come tenere traccia delle rate Klarna, Scalapay e PayPal](https://rateobnpl.com/it/guide/tenere-traccia-rate-klarna-scalapay-paypal/)
 - [Klarna Paga in 3 rate: calendario e scadenze](https://rateobnpl.com/it/guide/klarna-paga-in-3-rate-calendario-scadenze/)
 - [Klarna e Scalapay: scadenze a confronto](https://rateobnpl.com/it/guide/klarna-scalapay-scadenze-a-confronto/)
 - [Quanti piani a rate gestire senza saltare scadenze](https://rateobnpl.com/it/guide/quanti-piani-a-rate-gestire-senza-saltare-scadenze/)
 
+- [Rateo, fogli di calcolo e altre app BNPL: come scegliere](https://rateobnpl.com/it/guide/rateo-vs-fogli-di-calcolo-e-altre-app-bnpl/)
+
+## Anleitungen (Deutsch)
+- [Klarna-, Afterpay- und Affirm-Zahlungen an einem Ort im Blick behalten](https://rateobnpl.com/de/anleitungen/klarna-afterpay-affirm-zahlungen-an-einem-ort/)
+- [Klarna Pay in 4: Zahlungskalender und wie du überschneidende Fälligkeiten vermeidest](https://rateobnpl.com/de/anleitungen/klarna-pay-in-4-zahlungskalender/)
+- [Wie viele BNPL-Pläne kannst du verwalten, ohne eine Fälligkeit zu verpassen?](https://rateobnpl.com/de/anleitungen/wie-viele-bnpl-plaene-kannst-du-verwalten/)
+
+## Guías (Español)
+- [Cómo seguir tus pagos de Klarna, Afterpay y Affirm en un solo sitio](https://rateobnpl.com/es/guias/seguir-pagos-klarna-afterpay-affirm-en-un-solo-sitio/)
+- [Klarna Pay in 4: calendario de pagos y cómo evitar vencimientos que se solapan](https://rateobnpl.com/es/guias/klarna-pay-in-4-calendario-de-pagos/)
+- [¿Cuántos planes BNPL puedes manejar sin fallar un vencimiento?](https://rateobnpl.com/es/guias/cuantos-planes-bnpl-puedes-manejar/)
+
 ## Main pages
 - [Home (English)](https://rateobnpl.com/)
 - [Home (Italiano)](https://rateobnpl.com/it/)
 - [Home (Deutsch)](https://rateobnpl.com/de/)
 - [Home (Español)](https://rateobnpl.com/es/)
-- [Guides index](https://rateobnpl.com/guides/)
+- [Guides index](https://rateobnpl.com/guides/) ([it](https://rateobnpl.com/it/guide/), [de](https://rateobnpl.com/de/anleitungen/), [es](https://rateobnpl.com/es/guias/))
 - [Privacy](https://rateobnpl.com/privacy/)
 - [Support](https://rateobnpl.com/support/)
