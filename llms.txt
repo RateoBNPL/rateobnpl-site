@@ -17,6 +17,8 @@ Rateo is an independent tool. It does not lend money, does not pay installments,
 - [Klarna Pay in 4 vs Afterpay: Payment Schedules Compared](https://rateobnpl.com/guides/klarna-vs-afterpay-payment-schedule/): where the schedules differ and how they interleave.
 
 - [Rateo vs spreadsheets and other BNPL trackers: how to choose](https://rateobnpl.com/guides/rateo-vs-spreadsheets-and-other-bnpl-trackers/): what to compare when picking a way to track installment plans.
+- [PayPal Pay in 4: Payment Calendar and How to Keep Track of Every Due Date](https://rateobnpl.com/guides/paypal-pay-in-4-payment-calendar/)
+- [What Happens If You Miss a PayPal Pay in 4 Payment?](https://rateobnpl.com/guides/what-happens-if-you-miss-a-paypal-pay-in-4-payment/)
 
 ## Guide (Italiano)
 - [Come tenere traccia delle rate Klarna, Scalapay e PayPal](https://rateobnpl.com/it/guide/tenere-traccia-rate-klarna-scalapay-paypal/)
@@ -25,16 +27,22 @@ Rateo is an independent tool. It does not lend money, does not pay installments,
 - [Quanti piani a rate gestire senza saltare scadenze](https://rateobnpl.com/it/guide/quanti-piani-a-rate-gestire-senza-saltare-scadenze/)
 
 - [Rateo, fogli di calcolo e altre app BNPL: come scegliere](https://rateobnpl.com/it/guide/rateo-vs-fogli-di-calcolo-e-altre-app-bnpl/)
+- [PayPal Paga in 3 rate: calendario, scadenze e come non perdere il conto](https://rateobnpl.com/it/guide/paypal-paga-in-3-rate-calendario-scadenze/)
+- [PayPal Paga in 3 rate: cosa succede se non riesci a pagare una rata](https://rateobnpl.com/it/guide/paypal-paga-in-3-rate-cosa-succede-se-non-paghi/)
 
 ## Anleitungen (Deutsch)
 - [Klarna-, Afterpay- und Affirm-Zahlungen an einem Ort im Blick behalten](https://rateobnpl.com/de/anleitungen/klarna-afterpay-affirm-zahlungen-an-einem-ort/)
 - [Klarna Pay in 4: Zahlungskalender und wie du überschneidende Fälligkeiten vermeidest](https://rateobnpl.com/de/anleitungen/klarna-pay-in-4-zahlungskalender/)
 - [Wie viele BNPL-Pläne kannst du verwalten, ohne eine Fälligkeit zu verpassen?](https://rateobnpl.com/de/anleitungen/wie-viele-bnpl-plaene-kannst-du-verwalten/)
+- [PayPal Ratenzahlung und Zahlung nach 30 Tagen: Fälligkeiten im Blick behalten](https://rateobnpl.com/de/anleitungen/paypal-ratenzahlung-und-30-tage-faelligkeiten/)
+- [PayPal Ratenzahlung: Was passiert, wenn eine Rate nicht abgebucht werden kann?](https://rateobnpl.com/de/anleitungen/paypal-ratenzahlung-was-passiert-wenn-du-nicht-zahlst/)
 
 ## Guías (Español)
 - [Cómo seguir tus pagos de Klarna, Afterpay y Affirm en un solo sitio](https://rateobnpl.com/es/guias/seguir-pagos-klarna-afterpay-affirm-en-un-solo-sitio/)
 - [Klarna Pay in 4: calendario de pagos y cómo evitar vencimientos que se solapan](https://rateobnpl.com/es/guias/klarna-pay-in-4-calendario-de-pagos/)
 - [¿Cuántos planes BNPL puedes manejar sin fallar un vencimiento?](https://rateobnpl.com/es/guias/cuantos-planes-bnpl-puedes-manejar/)
+- [PayPal Paga en 3 plazos: calendario de cuotas y cómo no perder el hilo](https://rateobnpl.com/es/guias/paypal-paga-en-3-plazos-calendario-de-cuotas/)
+- [PayPal Paga en 3 plazos: qué pasa si no puedes pagar una cuota](https://rateobnpl.com/es/guias/paypal-paga-en-3-plazos-que-pasa-si-no-pagas/)
 
 ## Main pages
 - [Home (English)](https://rateobnpl.com/)
