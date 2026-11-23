@@ -36,6 +36,9 @@ Rateo is an independent tool. It does not lend money, does not pay installments,
 - [Wie viele BNPL-Pläne kannst du verwalten, ohne eine Fälligkeit zu verpassen?](https://rateobnpl.com/de/anleitungen/wie-viele-bnpl-plaene-kannst-du-verwalten/)
 - [PayPal Ratenzahlung und Zahlung nach 30 Tagen: Fälligkeiten im Blick behalten](https://rateobnpl.com/de/anleitungen/paypal-ratenzahlung-und-30-tage-faelligkeiten/)
 - [PayPal Ratenzahlung: Was passiert, wenn eine Rate nicht abgebucht werden kann?](https://rateobnpl.com/de/anleitungen/paypal-ratenzahlung-was-passiert-wenn-du-nicht-zahlst/)
+- [Klarna oder PayPal: Zahlungstermine, Raten und Kosten im Vergleich](https://rateobnpl.com/de/anleitungen/klarna-oder-paypal-zahlungstermine-im-vergleich/)
+- [Klarna und Scalapay: Zahlungstermine in 3 Raten im Vergleich](https://rateobnpl.com/de/anleitungen/klarna-scalapay-zahlungstermine-im-vergleich/)
+- [Rateo, Tabellen und andere BNPL-Apps: So wählst du](https://rateobnpl.com/de/anleitungen/rateo-vs-tabellen-und-andere-bnpl-apps/)
 
 ## Guías (Español)
 - [Cómo seguir tus pagos de Klarna, Afterpay y Affirm en un solo sitio](https://rateobnpl.com/es/guias/seguir-pagos-klarna-afterpay-affirm-en-un-solo-sitio/)
@@ -43,6 +46,9 @@ Rateo is an independent tool. It does not lend money, does not pay installments,
 - [¿Cuántos planes BNPL puedes manejar sin fallar un vencimiento?](https://rateobnpl.com/es/guias/cuantos-planes-bnpl-puedes-manejar/)
 - [PayPal Paga en 3 plazos: calendario de cuotas y cómo no perder el hilo](https://rateobnpl.com/es/guias/paypal-paga-en-3-plazos-calendario-de-cuotas/)
 - [PayPal Paga en 3 plazos: qué pasa si no puedes pagar una cuota](https://rateobnpl.com/es/guias/paypal-paga-en-3-plazos-que-pasa-si-no-pagas/)
+- [Klarna o PayPal: fechas de pago, cuotas y costes comparados en España](https://rateobnpl.com/es/guias/klarna-o-paypal-fechas-de-pago-comparadas/)
+- [Klarna y Scalapay: fechas de pago en 3 plazos comparadas](https://rateobnpl.com/es/guias/klarna-o-scalapay-fechas-de-pago-comparadas/)
+- [Rateo, hojas de cálculo y otras apps BNPL: cómo elegir](https://rateobnpl.com/es/guias/rateo-vs-hojas-de-calculo-y-otras-apps-bnpl/)
 
 ## Main pages
 - [Home (English)](https://rateobnpl.com/)
