@@ -1,0 +1,16 @@
+PACCHETTO TEMA AZZURRO - PRONTO PER LA PUBBLICAZIONE
+Questa cartella e' FUORI da Sito apposta: non va online da sola.
+
+Per applicare il tema azzurro al sito reale:
+1) Fai una copia di backup di Sito (o usa git: basta un commit prima).
+2) Copia TUTTO il contenuto di questa cartella dentro Sito, sovrascrivendo.
+3) Commit e push su GitHub Pages.
+
+Cosa cambia:
+- index.html, it/, de/, es/: nuove home (landing Azzurro con parallasse), con la stessa testata delle home attuali (title, description, canonical, hreflang, Open Graph, JSON-LD MobileApplication e FAQPage).
+- css/style.css: palette verde-menta -> Azzurro per tutte le pagine interne (guide, calcolatori, privacy, support, data-deletion).
+- img/azzurro/ e fonts/: screenshot ritagliati, badge e font (Figtree, Bricolage Grotesque) incorporati, niente Google Fonts.
+- Pagine interne: solo il meta theme-color (#DFEEFB).
+Non cambiano: sitemap, llms.txt, robots.txt, privacy/testi.
+Dal 1 dicembre 2026 banner Black Friday, badge -30% e prezzo barrato si tolgono da soli.
+Per tornare indietro: ripristina i file dal backup / git.
