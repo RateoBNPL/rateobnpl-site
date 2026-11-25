@@ -1,197 +1,226 @@
 <!doctype html>
 <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Calcolatore calendario rate: Klarna, PayPal, Scalapay, Afterpay – Rateo</title><meta name="description" content="Calcolatore gratuito: inserisci i tuoi acquisti a 3 o 4 rate e vedi tutte le scadenze in un unico calendario, con i pagamenti vicini evidenziati. Funziona nel browser, non salva nulla.">
+<title>Calcolatore calendario rate: Klarna, PayPal, Scalapay, Afterpay – Rateo</title><meta name="description" content="Anteprima gratuita dell'app Rateo: inserisci il tuo acquisto a rate e vedi tutte le scadenze nel calendario, esattamente come le mostra l'app. Funziona nel browser, non invia né salva nulla.">
 <link rel="canonical" href="https://rateobnpl.com/it/strumenti/calcolatore-calendario-rate/"><link rel="alternate" hreflang="en" href="https://rateobnpl.com/tools/bnpl-payment-calendar-calculator/"><link rel="alternate" hreflang="it" href="https://rateobnpl.com/it/strumenti/calcolatore-calendario-rate/"><link rel="alternate" hreflang="de" href="https://rateobnpl.com/de/rechner/ratenkalender/"><link rel="alternate" hreflang="es" href="https://rateobnpl.com/es/herramientas/calculadora-calendario-cuotas/"><link rel="alternate" hreflang="x-default" href="https://rateobnpl.com/tools/bnpl-payment-calendar-calculator/">
-<link rel="icon" href="/favicon.ico" sizes="any"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="/css/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Calcolatore del calendario delle rate", "description": "Calcolatore gratuito: inserisci i tuoi acquisti a 3 o 4 rate e vedi tutte le scadenze in un unico calendario, con i pagamenti vicini evidenziati. Funziona nel browser, non salva nulla.", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "it", "url": "https://rateobnpl.com/it/strumenti/calcolatore-calendario-rate/", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}</script>
-<style>.calc .ap{margin:26px 0 8px;--bg:#0D1526;--card:#15213a;--line:#233152;--tx:#E6EEF8;--mu:#9fb0c8;--teal:#17A98A;--mint:#10E8C0;--gold:#E3B341}
-.calc .ap-chip{display:flex;width:max-content;max-width:100%;align-items:center;gap:8px;margin:0 auto 12px;padding:6px 14px;border-radius:999px;background:#0D1526;color:#10E8C0;font-size:13.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
-.calc .ap-phone{max-width:540px;margin:0 auto;background:var(--bg);border:1px solid var(--line);border-radius:30px;padding:20px 18px 22px;box-shadow:0 22px 50px rgba(13,21,38,.28);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-.calc .ap-bar{display:flex;align-items:center;gap:9px;font-size:15px;color:var(--tx);margin-bottom:6px}.calc .ap-bar img{border-radius:7px}
-.calc .ap h2.ap-t{font-size:26px;line-height:1.2;margin:4px 0 14px;color:#F1F5F9;font-weight:700}
-.calc .ap label{display:block;font-size:13.5px;color:var(--mu);margin:0 0 5px}
-.calc .ap select,.calc .ap input{width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #2b3d63;border-radius:12px;background:#0f1a30;color:#F1F5F9;font-size:16px;font-family:inherit;color-scheme:dark}
-.calc .ap select:focus,.calc .ap input:focus{outline:2px solid var(--teal);outline-offset:1px;border-color:var(--teal)}
-.calc .ap input::placeholder{color:#6f84a3}
-.calc .ap-cur{max-width:150px;margin-bottom:12px}
-.calc .ap-plan{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 14px 12px;margin:0 0 12px}
-.calc .ap-ph{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
-.calc .ap-pt{font-weight:700;font-size:17px;color:#F1F5F9}
-.calc .ap-rm{background:none;border:0;color:var(--mu);font-size:13.5px;text-decoration:underline;cursor:pointer;padding:4px 0;font-family:inherit}.calc .ap-rm:hover{color:#F1F5F9}
-.calc .ap-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
-.calc .ap .help,.calc .ap .ap-hint{font-size:13px;line-height:1.45;color:var(--mu);margin:5px 0 0}
-.calc .ap .ap-hint{margin-top:10px}
-.calc .ap-add{display:block;width:100%;padding:12px;border:1.5px dashed var(--teal);border-radius:14px;background:transparent;color:var(--mint);font-size:15.5px;font-weight:600;cursor:pointer;font-family:inherit;margin:0 0 18px}
-.calc .ap-add:hover{background:rgba(23,169,138,.12)}
-.calc .ap-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px;margin:0 0 12px}
-.calc .ap-alert{border:1.5px solid var(--gold);background:rgba(227,179,65,.1);color:#F5DFA4;border-radius:16px;padding:12px 15px;margin:0 0 12px;font-size:15.5px;line-height:1.5}
-.calc .ap-ok{border:1px solid var(--line);border-left:4px solid var(--teal);background:var(--card);color:var(--tx);border-radius:16px;padding:12px 15px;margin:0 0 12px;font-size:15.5px;line-height:1.5}
-.calc .ap-empty{color:var(--mu);font-size:15.5px;margin:8px 2px 0}
-.calc .ap-ct{text-align:center;font-weight:700;color:#C9D8EA;font-size:15px;margin-bottom:6px}
-.calc .ap-nav{display:flex;align-items:center;justify-content:space-between;margin:4px 0 8px}
-.calc .ap-mn{font-size:20px;font-weight:600;color:#D9E6F5;text-transform:none}
-.calc .ap-arr{width:38px;height:38px;border-radius:50%;border:0;background:transparent;color:var(--mu);font-size:26px;line-height:1;cursor:pointer;font-family:inherit}.calc .ap-arr:hover:not(:disabled){background:#1d2c4a;color:#fff}.calc .ap-arr:disabled{opacity:.25;cursor:default}
-.calc .ap-cg{display:grid;grid-template-columns:repeat(7,1fr);gap:6px 0;text-align:center}
-.calc .ap-dw{font-size:13.5px;font-weight:700;color:var(--mu);padding:4px 0 6px}
-.calc .ap-d{display:flex;align-items:center;justify-content:center;width:36px;height:36px;margin:0 auto;border-radius:50%;font-size:15.5px;color:#C9D8EA;border:2px solid transparent}
-.calc .ap-on{border-color:var(--teal);font-weight:700;color:#fff}
-.calc .ap-hot{border-color:var(--gold)}
-.calc .ap-today{background:var(--teal);border-color:var(--teal);color:#fff;font-weight:700}
-.calc .ap-list{margin:0}
-.calc .ap-row{padding:12px 15px}.calc .ap-rhot{border-color:rgba(227,179,65,.7)}
-.calc .ap-r1,.calc .ap-r2,.calc .ap-r3{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.calc .ap-rt{font-size:18px;color:#E6EEF8;font-weight:700;overflow-wrap:anywhere}
-.calc .ap-ra{font-size:17px;color:#2fd0ae;font-weight:700;white-space:nowrap}
-.calc .ap-r2{margin:3px 0 4px}
-.calc .ap-pv{display:flex;align-items:center;gap:6px;color:var(--mu);font-size:14.5px}
-.calc .ap-bag{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:8px;background:#cfe0ee;color:#15213a}
-.calc .ap-wal{display:inline-flex;color:#8fa3bf}
-.calc .ap-rd{font-size:14.5px;color:#fff;white-space:nowrap}
-.calc .ap-r3{font-size:15.5px;color:#C9D8EA}.calc .ap-rem{font-size:14.5px;color:var(--mu);text-align:right}
-.calc .ap-mr{display:flex;justify-content:space-between;gap:12px;padding:7px 0;font-size:15.5px;color:#C9D8EA;text-transform:capitalize}.calc .ap-mr+.ap-mr{border-top:1px solid var(--line)}.calc .ap-mr b{color:#2fd0ae}
-.calc .ap-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:0;padding:14px 6px}
-.calc .ap-s{text-align:center;padding:0 6px}.calc .ap-s+.ap-s{border-left:1px solid var(--line)}
-.calc .ap-sl{display:block;font-size:13px;color:var(--mu);margin-bottom:3px}.calc .ap-sv{font-size:19px;color:#F1F5F9}
-.calc .ap-note{font-size:12.5px;line-height:1.5;color:#8196b4;margin:4px 2px 0}
-.calc .ap-cap{max-width:540px;margin:14px auto 0;text-align:center;font-size:15px;line-height:1.55;color:var(--muted)}
-@media(max-width:480px){.calc .ap-phone{padding:16px 12px 18px;border-radius:24px}.calc .ap-d{width:32px;height:32px;font-size:14.5px}.calc .ap-rt{font-size:17px}}
-@media(prefers-reduced-motion:no-preference){.calc .ap-add,.calc .ap-arr{transition:background .2s ease}}
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="/css/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Calcolatore del calendario delle rate", "description": "Anteprima gratuita dell'app Rateo: inserisci il tuo acquisto a rate e vedi tutte le scadenze nel calendario, esattamente come le mostra l'app. Funziona nel browser, non invia né salva nulla.", "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "inLanguage": "it", "url": "https://rateobnpl.com/it/strumenti/calcolatore-calendario-rate/", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}</script>
+<style>.ap2{--bg:#0D1526;--card:#16213A;--pri:#17A98A;--sec:#94A3B8;--alt:#2A3B5C;--txt:#F1F5F9;--acc:#64748B;--err:#E85D5D;--warn:#E8C547;--sv:#334155;margin:22px 0 8px;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.ap2 *{box-sizing:border-box}
+.ap2 .ap2-chip{display:inline-flex;align-items:center;gap:8px;background:#E3F4EF;color:#0A5C4A;border:1px solid #17A98A;border-radius:999px;padding:6px 14px;font-weight:700;font-size:.9rem;margin:0 0 14px}
+.ap2 .ap2-cur{display:flex;align-items:center;gap:10px;margin:0 0 16px;font-size:.95rem}
+.ap2 .ap2-cur select{width:auto;min-width:90px;font:inherit;padding:6px 10px;border-radius:8px;border:1px solid #9CB6D6;background:#fff;color:#0D1526}
+.ap2 .ap2-screen{background:var(--bg);color:var(--txt);border-radius:22px;max-width:430px;margin:0 auto 26px;overflow:hidden;box-shadow:0 12px 34px rgba(13,21,38,.28);border:1px solid #1d2c4a}
+.ap2 .ap2-bar{display:flex;align-items:center;gap:12px;padding:14px 12px;font-size:20px;font-weight:600;color:var(--txt)}
+.ap2 .ap2-bar svg{flex:none}
+.ap2 .ap2-body{padding:10px 10px 18px}
+.ap2 .ap2-sec{font-weight:700;font-size:14px;color:var(--pri);margin:0 0 2px;padding:0}
+.ap2 label.ap2-lab,.ap2 span.ap2-lab{margin:0;display:block;font-size:12px;font-weight:600;color:var(--txt);padding:16px 0 4px}
+.ap2 .ap2-lab.s{font-size:11px;color:var(--sec);padding:12px 0 4px}
+.ap2 .ap2-f{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid transparent;border-radius:12px;padding:0 12px;min-height:44px}
+.ap2 .ap2-f svg{flex:none;color:var(--txt)}
+.ap2 .ap2-f input{all:unset;flex:1;min-width:0;font-size:14px;font-weight:500;color:var(--txt);padding:12px 0}
+.ap2 .ap2-f input::placeholder{color:var(--sec);font-size:12px;font-weight:600;opacity:1}
+.ap2 .ap2-dd{position:relative;background:var(--card);border-radius:8px;box-shadow:0 2px 3px rgba(0,0,0,.35);height:40px;margin:12px 0 0;max-width:300px}
+.ap2 .ap2-dd select{appearance:none;-webkit-appearance:none;width:100%;height:40px;border:0;background:transparent;color:var(--sec);font:500 14px Inter,system-ui,sans-serif;padding:0 36px 0 12px;border-radius:8px;outline:0;cursor:pointer}
+.ap2 .ap2-dd select:focus-visible,.ap2 .ap2-chips button:focus-visible,.ap2 .ap2-date:focus-within,.ap2 .ap2-save:focus-visible,.ap2 .ap2-f:focus-within{outline:2px solid var(--pri);outline-offset:2px}
+.ap2 .ap2-dd select option{background:#16213A;color:#F1F5F9}
+.ap2 .ap2-dd svg{position:absolute;right:8px;top:8px;color:var(--sec);pointer-events:none}
+.ap2 .ap2-chips{display:flex;gap:8px;overflow-x:auto;padding:0 0 4px}
+.ap2 .ap2-chips button{flex:none;height:34px;border-radius:8px;padding:0 12px;border:1px solid var(--alt);background:var(--acc);color:var(--txt);font:500 14px Inter,system-ui,sans-serif;cursor:pointer}
+.ap2 .ap2-chips button[aria-pressed=true]{background:var(--pri)}
+.ap2 .ap2-date{position:relative;display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--sv);border-radius:12px;padding:16px;color:#F8FAFC;font-size:14px;cursor:pointer}
+.ap2 .ap2-date svg{color:var(--pri)}
+.ap2 .ap2-date input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
+.ap2 .ap2-sum{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--pri);border-radius:16px;padding:24px;margin-top:16px}
+.ap2 .ap2-ico{width:48px;height:48px;border-radius:50%;background:var(--pri);display:flex;align-items:center;justify-content:center;color:#fff;flex:none}
+.ap2 .ap2-sum small{display:block;font-size:11px;font-weight:600;color:var(--sec)}
+.ap2 .ap2-sum b{font:700 26px "IBM Plex Sans Condensed","Arial Narrow",Inter,sans-serif;color:var(--txt)}
+.ap2 .ap2-sum span{font-size:14px;color:var(--sec);margin-left:4px}
+.ap2 .ap2-err{color:var(--err);font-size:14px;font-weight:600;text-align:center;margin:16px 0 0}
+.ap2 .ap2-save{display:block;width:100%;height:48px;margin-top:16px;border:0;border-radius:16px;background:var(--pri);color:var(--txt);font:600 18px Inter,system-ui,sans-serif;cursor:pointer}
+.ap2 .ap2-save:disabled{background:#2A3B5C;color:#64748B;cursor:not-allowed}
+.ap2 .ap2-hd{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:6px 6px 0}
+.ap2 .ap2-hd h3{margin:0;font-size:22px;font-weight:700;color:var(--txt)}
+.ap2 .ap2-hd p{margin:4px 0 0;font-size:14px;font-weight:500;color:var(--sec)}
+.ap2 .ap2-cb{position:relative;flex:none;width:40px;height:40px;border:1px solid var(--pri);border-radius:12px;background:transparent;color:var(--pri);display:flex;align-items:center;justify-content:center;cursor:pointer}
+.ap2 .ap2-cb input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.ap2 .ap2-back{display:none;margin:8px 6px 0;height:40px;padding:0 16px;border:0;border-radius:16px;background:var(--pri);color:#fff;font:600 14px Inter,system-ui,sans-serif;cursor:pointer}
+.ap2 .ap2-view{display:none;padding:10px 6px 0}
+.ap2 .ap2-view b{font-size:16px;font-weight:700}
+.ap2 .ap2-view p{margin:2px 0 0;font-size:12px;font-weight:500}
+.ap2 .ap2-mt{font-size:14px;font-weight:700;margin:16px 6px 8px}
+.ap2 .ap2-none{font-size:12px;font-weight:500;color:var(--sec);margin:8px 16px 0}
+.ap2 .ap2-mh{display:flex;align-items:center;justify-content:space-between}
+.ap2 .ap2-mh b{font-size:20px;font-weight:600;text-transform:none}
+.ap2 .ap2-mh button{all:unset;width:48px;height:48px;display:flex;align-items:center;justify-content:center;color:var(--sec);cursor:pointer;border-radius:50%}
+.ap2 .ap2-mh button:focus-visible{outline:2px solid var(--pri)}
+.ap2 .ap2-cal{display:grid;grid-template-columns:repeat(7,1fr);margin-top:4px}
+.ap2 .ap2-cal i{font-style:normal;text-align:center;font-size:14px;font-weight:600;color:var(--sec);padding:0 0 4px}
+.ap2 .ap2-d{height:38px;display:flex;align-items:center;justify-content:center}
+.ap2 .ap2-d button{all:unset;box-sizing:border-box;width:min(36px,80%);aspect-ratio:1;min-width:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;color:var(--txt);cursor:pointer}
+.ap2 .ap2-d button.due{border:1.6px solid var(--pri);font-weight:700}
+.ap2 .ap2-d button.tod{background:rgba(23,169,138,.16);font-weight:700}
+.ap2 .ap2-d button.sel{background:var(--pri);color:#fff;font-weight:700;border:0}
+.ap2 .ap2-d button:focus-visible{outline:2px solid var(--pri);outline-offset:2px}
+.ap2 .ap2-list{display:flex;flex-direction:column;gap:16px;padding:8px 0}
+.ap2 .ap2-card{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--alt);border-radius:16px;padding:8px 8px}
+.ap2 .ap2-card.hl{border-color:var(--pri)}
+.ap2 .ap2-card>svg{flex:none;color:var(--txt);margin:0 4px}
+.ap2 .ap2-mid{flex:1;min-width:0}
+.ap2 .ap2-mid b{display:block;font-size:16px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ap2 .ap2-mid span{display:flex;align-items:center;gap:4px;font-size:12px;color:var(--sec);margin-top:2px}
+.ap2 .ap2-r{text-align:right;flex:none}
+.ap2 .ap2-r b{display:block;font-size:16px;font-weight:700;color:var(--pri)}
+.ap2 .ap2-st{display:inline-block;margin:3px 0;padding:2px 6px;border-radius:6px;font-size:11px;font-weight:700;color:#fff}
+.ap2 .ap2-st.t{background:var(--pri)}
+.ap2 .ap2-r small{display:block;font-size:11px;color:var(--sec)}
+.ap2 .ap2-cap{max-width:560px;margin:0 auto;font-size:.92rem;opacity:.85}
+@media (max-width:420px){.ap2 .ap2-sum{padding:18px}.ap2 .ap2-hd h3{font-size:20px}}
+@media (prefers-reduced-motion:no-preference){.ap2 .ap2-save{transition:background .15s}}
 </style>
 </head><body>
 <header><div class="wrap bar"><a class="brand" href="/it/"><img src="/img/icon-128.png" width="36" height="36" alt=""><span>Rateo<span class="bs"> - BNPL Tracker</span></span></a><nav aria-label="Main"><span class="lang"><a href="/tools/bnpl-payment-calendar-calculator/" hreflang="en" lang="en">EN</a><a href="/it/strumenti/calcolatore-calendario-rate/" hreflang="it" lang="it" aria-current="page">IT</a><a href="/de/rechner/ratenkalender/" hreflang="de" lang="de">DE</a><a href="/es/herramientas/calculadora-calendario-cuotas/" hreflang="es" lang="es">ES</a></span></nav></div></header>
-<main class="wrap guide calc"><a class="back" href="/it/guide/">← Tutte le guide</a><h1>Calcolatore del calendario delle rate</h1><p>Inserisci i tuoi acquisti a rate e vedi tutte le scadenze in un unico calendario. I pagamenti vicini tra loro sono evidenziati. Funziona nel browser: non invia né salva nulla.</p><section class="ap" aria-labelledby="ap-t"><div class="ap-chip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg><span>Anteprima dell'app</span></div><div class="ap-phone"><div class="ap-bar"><img src="/img/icon-128.png" width="26" height="26" alt=""><b>Rateo - BNPL Tracker</b></div><h2 class="ap-t" id="ap-t">Calendario</h2><div class="ap-cur"><label for="calc-cur">Valuta</label><select id="calc-cur"><option value="EUR">EUR</option><option value="USD">USD</option><option value="GBP">GBP</option></select></div><div id="calc-plans"></div><button type="button" id="calc-add" class="ap-add">+ Aggiungi un altro piano</button><div id="calc-out" aria-live="polite"></div></div><p class="ap-cap">Questa è un'anteprima di come Rateo mostra i tuoi pagamenti. Nell'app il calendario si compila da solo per ogni piano, con un promemoria 48 e 24 ore prima di ogni scadenza, e i tuoi dati restano sul telefono.</p></section><div class="guide-cta"><h2>Prova questa funzione nell'app Rateo</h2><p>Rateo lo fa per ogni piano che aggiungi: il calendario si compila da solo e ricevi un promemoria 48 e 24 ore prima di ogni pagamento. Nessun account, nessun accesso alla banca, i dati restano sul telefono. Gratis fino a 3 piani attivi.</p><div class="stores"><a href="https://apps.apple.com/app/id6809891707?pt=129429220&amp;ct=website_calc_it&amp;mt=8" rel="noopener"><img src="/badges/appstore-it.svg" alt="App Store" width="156" height="52"></a><a href="https://play.google.com/store/apps/details?id=it.rateo.app&amp;referrer=utm_source%3Dwebsite%26utm_medium%3Dweb%26utm_campaign%3Dcalc_it" rel="noopener"><img src="/badges/googleplay-it.png" alt="Google Play" width="175" height="52"></a></div><p class="note">Disponibile per iPhone e Android</p></div><h2>Come funziona</h2><ol><li>Scegli servizio e piano: numero di rate e intervallo si compilano da soli.</li><li>Aggiungi tutti i piani che hai. Il calendario li unisce e li ordina per data.</li><li>Guarda il periodo evidenziato: è quello in cui esce più denaro dal conto nel minor tempo.</li></ol><h2>Cosa copre</h2><ul><li>Calendari di Klarna (IT, DE, ES, US), PayPal (IT, ES, DE, US), Scalapay e Afterpay, secondo le pagine ufficiali verificate il 23 novembre 2026. Le date di inizio dipendono dal negozio e dalla tua approvazione.</li><li>Non calcola finanziamenti con interessi, costi di ritardo o varianti specifiche di un Paese.</li><li>Non è consulenza legale o finanziaria. Rateo non è affiliato a questi fornitori.</li></ul></main>
-<script type="application/json" id="calc-data">{"locale": "it-IT", "currency": "EUR", "presets": [{"id": "klarna_it", "n": 3, "step": "d30", "off": 0, "label": "Klarna – Paga in 3 rate (IT)"}, {"id": "klarna_de", "n": 3, "step": "d30", "off": 0, "label": "Klarna – 3 Teilzahlungen (DE)"}, {"id": "klarna_es", "n": 3, "step": "d30", "off": 0, "label": "Klarna – Paga en 3 plazos (ES)"}, {"id": "klarna_us", "n": 4, "step": "d14", "off": 0, "label": "Klarna – Pay in 4 (US)"}, {"id": "klarna_30", "n": 1, "step": "d30", "off": 30, "label": "Klarna – 30 Tage / 30 días (DE, ES)"}, {"id": "paypal_it", "n": 3, "step": "m1", "off": 0, "label": "PayPal – Paga in 3 rate (IT)"}, {"id": "paypal_es", "n": 3, "step": "m1", "off": 0, "label": "PayPal – Paga en 3 plazos (ES)"}, {"id": "paypal_us", "n": 4, "step": "d14", "off": 0, "label": "PayPal – Pay in 4 (US)"}, {"id": "paypal_30", "n": 1, "step": "d30", "off": 30, "label": "PayPal – Zahlung nach 30 Tagen (DE)"}, {"id": "scalapay3", "n": 3, "step": "m1", "off": 0, "label": "Scalapay – 3 rate mensili"}, {"id": "scalapay4", "n": 4, "step": "m1", "off": 0, "label": "Scalapay – 4 rate mensili"}, {"id": "afterpay", "n": 4, "step": "d14", "off": 0, "label": "Afterpay (US)"}, {"id": "custom", "n": 0, "step": "", "off": 0, "label": "Altro (imposti tu)"}], "str": {"title": "Calcolatore calendario rate: Klarna, PayPal, Scalapay, Afterpay", "desc": "Calcolatore gratuito: inserisci i tuoi acquisti a 3 o 4 rate e vedi tutte le scadenze in un unico calendario, con i pagamenti vicini evidenziati. Funziona nel browser, non salva nulla.", "h1": "Calcolatore del calendario delle rate", "intro": "Inserisci i tuoi acquisti a rate e vedi tutte le scadenze in un unico calendario. I pagamenti vicini tra loro sono evidenziati. Funziona nel browser: non invia né salva nulla.", "provider": "Servizio e piano", "total": "Totale dell'acquisto", "start": "Data di inizio", "startHelp": "Data dell'acquisto, o della spedizione se il negozio addebita in quel momento.", "name": "Nome (facoltativo)", "namePh": "es. cuffie", "count": "Numero di rate", "interval": "Intervallo", "i14": "2 settimane", "i30": "30 giorni", "im1": "1 mese", "add": "+ Aggiungi un altro piano", "remove": "Rimuovi piano", "currency": "Valuta", "hintN": "{n} rate, una {every}, la prima alla data di inizio.", "hint1": "1 pagamento, {off} giorni dopo la data di inizio.", "ev14": "ogni 2 settimane", "ev30": "ogni 30 giorni", "evm1": "ogni mese", "plan": "Piano", "resultH": "Il tuo calendario dei pagamenti", "date": "Data", "amount": "Importo", "pay": "Rata", "totalAll": "Totale", "heavy": "Periodo più pesante: {sum} in {count} pagamenti tra il {from} e il {to}.", "none": "Nessun pagamento si sovrappone entro 5 giorni.", "monthly": "Totali per mese", "empty": "Inserisci il totale di un acquisto per vedere il calendario.", "note": "Stime basate sul calendario tipico di ogni piano. Fa sempre fede il riepilogo del tuo piano o l'app del fornitore. Commissioni, interessi e costi di ritardo non sono inclusi, e il fornitore può distribuire diversamente i centesimi di arrotondamento.", "ctaH": "Prova questa funzione nell'app Rateo", "ctaP": "Rateo lo fa per ogni piano che aggiungi: il calendario si compila da solo e ricevi un promemoria 48 e 24 ore prima di ogni pagamento. Nessun account, nessun accesso alla banca, i dati restano sul telefono. Gratis fino a 3 piani attivi.", "howH": "Come funziona", "limH": "Cosa copre", "back": "← Tutte le guide", "guides": "Guide", "chip": "Anteprima dell'app", "screen": "Calendario", "monthTitle": "Scadenzario mensile", "inst": "Rata {i} di {n}", "rem": "Rimangono {amt}", "dow": ["do", "lu", "ma", "me", "gi", "ve", "sa"], "other": "Altro", "payN": "Rate", "plans": "Piani", "prev": "Mese precedente", "next": "Mese successivo", "previewNote": "Questa è un'anteprima di come Rateo mostra i tuoi pagamenti. Nell'app il calendario si compila da solo per ogni piano, con un promemoria 48 e 24 ore prima di ogni scadenza, e i tuoi dati restano sul telefono.", "planCard": "Piano", "dotMonth": ""}, "def": "klarna_it"}</script><script>
+<main class="wrap guide calc"><a class="back" href="/it/guide/">← Tutte le guide</a><h1>Calcolatore del calendario delle rate</h1><p>Compila un acquisto come faresti nell'app Rateo e guarda le scadenze comparire nel calendario, esattamente come le mostra l'app. Funziona nel browser: non invia né salva nulla.</p><section class="ap2" aria-label="Anteprima dell'app"><span class="ap2-chip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>Anteprima dell'app</span><div id="ap2-root"><noscript><p>JavaScript is required.</p></noscript></div><p class="ap2-cap">Questa è un'anteprima dell'app Rateo: stessa maschera, stesso calendario. Qui non viene salvato nulla e nulla lascia il tuo dispositivo; nell'app i piani restano sul telefono e ricevi un promemoria 48 e 24 ore prima di ogni pagamento.</p></section><div class="guide-cta"><h2>Prova questa funzione nell'app Rateo</h2><p>Rateo lo fa per ogni piano che aggiungi: il calendario si compila da solo e ricevi un promemoria 48 e 24 ore prima di ogni pagamento. Nessun account, nessun accesso alla banca, i dati restano sul telefono. Gratis fino a 3 piani attivi.</p><div class="stores"><a href="https://apps.apple.com/app/id6809891707?pt=129429220&amp;ct=website_calc_it&amp;mt=8" rel="noopener"><img src="/badges/appstore-it.svg" alt="App Store" width="156" height="52"></a><a href="https://play.google.com/store/apps/details?id=it.rateo.app&amp;referrer=utm_source%3Dwebsite%26utm_medium%3Dweb%26utm_campaign%3Dcalc_it" rel="noopener"><img src="/badges/googleplay-it.png" alt="Google Play" width="175" height="52"></a></div><p class="note">Disponibile per iPhone e Android</p></div><h2>Come funziona</h2><ol><li>Compila l'acquisto: articolo, esercente, totale, circuito, numero di rate e data della prima scadenza.</li><li>Tocca «Salva piano rateale»: il piano compare nel calendario qui sotto. Puoi aggiungerne quanti vuoi.</li><li>Guarda il calendario: i giorni cerchiati sono le scadenze e l'elenco mostra i pagamenti dei prossimi 30 giorni.</li></ol><h2>Cosa copre</h2><ul><li>Un'anteprima dell'app Rateo: le rate sono mensili, tutte dello stesso importo (il totale diviso per il numero di rate), come nell'app.</li><li>Non calcola finanziamenti con interessi, costi o penali di ritardo. Fa sempre fede il riepilogo del tuo piano o l'app del fornitore.</li><li>Non è consulenza legale o finanziaria. Rateo non è affiliato a questi fornitori.</li></ul></main>
+<script type="application/json" id="calc-data">{"locale": "it-IT", "currency": "€", "s": {"currency": "Valuta", "newPlan": "Nuovo Piano Rateale", "details": "Dettagli acquisto", "item": "Articolo", "itemPh": "es. iPhone, Borsa Gucci ecc.", "merchant": "Esercente", "merchPh": "es. Amazon, IKEA ecc.", "total": "Totale", "totalPh": "0,00", "planH": "Piano di pagamento", "cat": "Categoria", "cats": ["Elettronica", "Casa & Elettrodomestici", "Abbigliamento & Accessori", "Salute & Benessere", "Viaggi", "Assicurazioni", "Auto & Trasporti", "Alimentari & Spesa", "Sport & Tempo libero", "Arredamento & Fai da te", "Bambini & Neonati", "Animali domestici", "Abbonamenti digitali", "Altro"], "prov": "Circuito", "provs": ["PayPal", "Klarna", "Afterpay", "Amazon", "Scalapay", "Shop Pay", "Clearpay", "Affirm", "Alma", "Zip"], "src": "Carta o C/C", "srcCC": "Carta di Credito", "srcBank": "Conto Corrente", "nInst": "Numero rate", "firstDue": "Data scadenza prima rata", "selDate": "Seleziona data", "monthlyTot": "Totale rate mensili", "perMonth": "/ mese", "fill": "Compila tutti i campi per salvare il piano rateale", "save": "Salva piano rateale", "calendar": "Calendario", "pick": "Scegli una data", "backToday": "Torna ad oggi", "monthly": "Scadenzario mensile", "noDue": "Nessuna scadenza nei prossimi 30 giorni", "prev": "Mese precedente", "next": "Mese successivo", "dueDay": "scadenza", "inst": "Rata {i} di {n}", "rem": "Rimangono", "todayLbl": "OGGI", "dow": ["do", "lu", "ma", "me", "gi", "ve", "sa"], "msg": {"n0t": "Nessun pagamento oggi", "n0d": "Nessun pagamento in questo giorno", "n1t": "1 pagamento in scadenza oggi", "n1d": "1 pagamento in scadenza questo giorno", "nt": "{n} pagamenti in scadenza oggi", "nd": "{n} pagamenti in scadenza questo giorno"}}}</script><script>
 (function(){
-var C=JSON.parse(document.getElementById('calc-data').textContent);
-var P={};C.presets.forEach(function(p){P[p.id]=p;});
-function addDays(d,k){return new Date(d.getFullYear(),d.getMonth(),d.getDate()+k);}
+var C=JSON.parse(document.getElementById('calc-data').textContent),S=C.s;
+var root=document.getElementById('ap2-root');
 function addMonths(d,k){var y=d.getFullYear(),m=d.getMonth()+k,l=new Date(y,m+1,0).getDate();return new Date(y,m,Math.min(d.getDate(),l));}
-function parseDate(s){var p=(s||'').split('-');if(p.length!==3)return null;var d=new Date(+p[0],+p[1]-1,+p[2]);return isNaN(d)?null:d;}
 function pad(n){return (n<10?'0':'')+n;}
 function iso(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());}
-function dayNum(d){return Math.round(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())/86400000);}
-function stepOf(plan){var p=P[plan.preset];if(p.id==='custom')return {n:Math.max(1,Math.min(12,parseInt(plan.n,10)||1)),step:plan.step,off:0};return {n:p.n,step:p.step,off:p.off};}
-function schedule(plan){
-  var s=stepOf(plan),start=parseDate(plan.start),cents=Math.round((parseFloat(plan.total)||0)*100);
-  if(!start||cents<=0)return [];
-  var base=Math.floor(cents/s.n),rest=cents-base*s.n,out=[];
-  for(var i=0;i<s.n;i++){
-    var d;
-    if(s.step==='m1')d=addMonths(start,i);else d=addDays(start,s.off+i*(s.step==='d14'?14:30));
-    out.push({date:d,cents:base+(i===0?rest:0),i:i+1,n:s.n});
-  }
-  return out;
+function parseDate(s){var p=(s||'').split('-');if(p.length!==3)return null;var d=new Date(+p[0],+p[1]-1,+p[2]);return isNaN(d)?null:d;}
+function key(d){return d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate();}
+function sameDay(a,b){return key(a)===key(b);}
+function startOfDay(d){return new Date(d.getFullYear(),d.getMonth(),d.getDate());}
+function parseAmount(v){var n=parseFloat(String(v||'').replace(',','.'));return isFinite(n)?n:0;}
+function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+var cur=C.currency;
+function money(v){
+  if(cur==='€')return '€ '+new Intl.NumberFormat('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2}).format(v);
+  return cur+new Intl.NumberFormat('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}).format(v);
 }
-function allEvents(plans){
-  var ev=[];
-  plans.forEach(function(pl,idx){
-    schedule(pl).forEach(function(e){e.plan=idx;e.label=pl.name||(C.str.plan+' '+(idx+1)+' · '+P[pl.preset].label);ev.push(e);});
-  });
-  ev.sort(function(a,b){return a.date-b.date||a.plan-b.plan;});
-  return ev;
-}
-function heaviest(ev){
-  var best=null;
-  for(var i=0;i<ev.length;i++){
-    var a=dayNum(ev[i].date),sum=0,cnt=0,last=i;
-    for(var j=i;j<ev.length;j++){if(dayNum(ev[j].date)-a<=4){sum+=ev[j].cents;cnt++;last=j;}else break;}
-    if(cnt>=2&&(!best||sum>best.sum))best={sum:sum,count:cnt,from:i,to:last};
-  }
-  return best;
-}
-if(typeof module!=='undefined'){module.exports={schedule:schedule,allEvents:allEvents,heaviest:heaviest,addMonths:addMonths,addDays:addDays};}
-if(typeof document==='undefined'||!document.getElementById('calc-plans'))return;
+var fmtFull=new Intl.DateTimeFormat(C.locale,{year:'numeric',month:'short',day:'numeric'});
+var fmtShort=new Intl.DateTimeFormat(C.locale,{day:'numeric',month:'short'});
+var fmtMonth=new Intl.DateTimeFormat(C.locale,{month:'long',year:'numeric'});
+function svg(p,sz,extra){return '<svg width="'+(sz||24)+'" height="'+(sz||24)+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"'+(extra||'')+'>'+p+'</svg>';}
+var I={
+ back:'<path d="M19 12H5M12 19l-7-7 7-7"/>',
+ note:'<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>',
+ shop:'<path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>',
+ coin:'<circle cx="12" cy="12" r="9"/><path d="M14.5 9.2c-.6-.8-1.5-1.2-2.5-1.2-1.4 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.8 2.5 2-1.1 2-2.5 2c-1 0-1.9-.4-2.5-1.2M12 6.5V8m0 8v1.5"/>',
+ down:'<path d="M6 9l6 6 6-6"/>',
+ cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+ list:'<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h8M8 17h5"/>',
+ wallet:'<path d="M3 7a2 2 0 0 1 2-2h13v4"/><path d="M3 7v11a2 2 0 0 0 2 2h15V9H5a2 2 0 0 1-2-2z"/><circle cx="16" cy="14.5" r="1"/>',
+ l:'<path d="M15 6l-6 6 6 6"/>',r:'<path d="M9 6l6 6-6 6"/>'
+};
+function opts(arr,val){return arr.map(function(o){return '<option value="'+esc(o[0])+'"'+(o[0]===val?' selected':'')+'>'+esc(o[1])+'</option>';}).join('');}
+var st={title:'',merchant:'',total:'',cat:'',prov:'',src:'cc',n:3,first:'',plans:[],month:null,sel:null};
+var today=startOfDay(new Date());st.sel=today;st.month=new Date(today.getFullYear(),today.getMonth(),1);
 
-var SYM={EUR:'€',USD:'$',GBP:'£'};
-var numf=new Intl.NumberFormat(C.locale,{minimumFractionDigits:2,maximumFractionDigits:2});
-var spaced=C.locale.indexOf('en')!==0;
-function money(c){var s=SYM[C.currency]||C.currency;return s+(spaced?' ':'')+numf.format(c/100);}
-function mshort(d){return d.getDate()+' '+d.toLocaleDateString(C.locale,{month:'short'})+(C.str.dotMonth||'');}
-function mlong(d){return d.toLocaleDateString(C.locale,{month:'long'})+' '+d.getFullYear();}
-function fdate(d){return d.toLocaleDateString(C.locale,{weekday:'short',day:'numeric',month:'short',year:'numeric'});}
-var plans=[],root=document.getElementById('calc-plans'),view=null;
-function mk(t,a,h){var e=document.createElement(t);if(a)for(var k in a)e.setAttribute(k,a[k]);if(h!==undefined)e.textContent=h;return e;}
-function field(label,input,help){var w=mk('div');var l=mk('label',{'for':input.id},label);w.appendChild(l);w.appendChild(input);if(help)w.appendChild(mk('p',{'class':'help'},help));return w;}
-function hintFor(plan){
-  var s=stepOf(plan);if(plan.preset==='custom')return '';
-  if(s.n===1)return C.str.hint1.replace('{off}',s.off);
-  var ev=s.step==='d14'?C.str.ev14:(s.step==='d30'?C.str.ev30:C.str.evm1);
-  return C.str.hintN.replace('{n}',s.n).replace('{every}',ev);
+root.innerHTML=
+'<div class="ap2-cur"><label for="ap2-cur">'+esc(S.currency)+'</label><select id="ap2-cur">'+
+ ['€','$','£'].map(function(c){return '<option value="'+c+'"'+(c===cur?' selected':'')+'>'+c+'</option>';}).join('')+'</select></div>'+
+'<div class="ap2-screen" id="ap2-form"><div class="ap2-bar">'+svg(I.back,24)+'<span>'+esc(S.newPlan)+'</span></div><div class="ap2-body">'+
+ '<p class="ap2-sec">'+esc(S.details)+'</p>'+
+ '<label class="ap2-lab" for="ap2-title">'+esc(S.item)+'</label><div class="ap2-f">'+svg(I.note,20)+'<input id="ap2-title" autocomplete="off" placeholder="'+esc(S.itemPh)+'"></div>'+
+ '<label class="ap2-lab" for="ap2-merch">'+esc(S.merchant)+'</label><div class="ap2-f">'+svg(I.shop,20)+'<input id="ap2-merch" autocomplete="off" placeholder="'+esc(S.merchPh)+'"></div>'+
+ '<label class="ap2-lab" for="ap2-total">'+esc(S.total)+'</label><div class="ap2-f">'+svg(I.coin,20)+'<input id="ap2-total" inputmode="decimal" autocomplete="off" placeholder="'+esc(S.totalPh)+'"></div>'+
+ '<p class="ap2-sec" style="margin-top:22px">'+esc(S.planH)+'</p>'+
+ '<label class="ap2-lab s" for="ap2-cat" style="padding-top:12px">'+esc(S.cat)+'</label><div class="ap2-dd" style="margin-top:0"><select id="ap2-cat"><option value="">'+esc(S.cat)+'</option>'+opts(S.cats.map(function(c,i){return [String(i),c];}),'')+'</select>'+svg(I.down,24)+'</div>'+
+ '<label class="ap2-lab s" for="ap2-prov">'+esc(S.prov)+'</label><div class="ap2-dd" style="margin-top:0"><select id="ap2-prov"><option value="">BNPL</option>'+opts(S.provs.map(function(c){return [c,c];}),'')+'</select>'+svg(I.down,24)+'</div>'+
+ '<label class="ap2-lab s" for="ap2-src">'+esc(S.src)+'</label><div class="ap2-dd" style="margin-top:0"><select id="ap2-src">'+opts([['cc',S.srcCC],['bank',S.srcBank]],'cc')+'</select>'+svg(I.down,24)+'</div>'+
+ '<span class="ap2-lab" id="ap2-nl">'+esc(S.nInst)+'</span><div class="ap2-chips" role="group" aria-labelledby="ap2-nl">'+[3,4,5,6,8,12].map(function(n){return '<button type="button" data-n="'+n+'" aria-pressed="'+(n===3)+'">'+n+'x</button>';}).join('')+'</div>'+
+ '<span class="ap2-lab" id="ap2-dl">'+esc(S.firstDue)+'</span><label class="ap2-date" aria-labelledby="ap2-dl"><span id="ap2-dt">'+esc(S.selDate)+'</span>'+svg(I.cal,20)+'<input type="date" id="ap2-date" min="1900-01-01" max="2050-12-31" aria-label="'+esc(S.firstDue)+'"></label>'+
+ '<div class="ap2-sum"><div class="ap2-ico">'+svg(I.list,24)+'</div><div><small>'+esc(S.monthlyTot)+'</small><b id="ap2-mon"></b><span>'+esc(S.perMonth)+'</span></div></div>'+
+ '<p class="ap2-err" id="ap2-err" role="status">'+esc(S.fill)+'</p>'+
+ '<button type="button" class="ap2-save" id="ap2-save" disabled>'+esc(S.save)+'</button>'+
+'</div></div>'+
+'<div class="ap2-screen" id="ap2-calscr"><div class="ap2-bar">'+svg(I.back,24)+'<span>'+esc(S.calendar)+'</span></div><div class="ap2-body">'+
+ '<div class="ap2-hd"><div><h3 id="ap2-today"></h3><p id="ap2-tmsg"></p></div><label class="ap2-cb" title="'+esc(S.pick)+'">'+svg(I.cal,22)+'<input type="date" id="ap2-pick" min="1900-01-01" max="2050-12-31" aria-label="'+esc(S.pick)+'"></label></div>'+
+ '<button type="button" class="ap2-back" id="ap2-back">'+esc(S.backToday)+'</button>'+
+ '<div class="ap2-view" id="ap2-view"><b id="ap2-vd"></b><p id="ap2-vm"></p></div>'+
+ '<p class="ap2-mt">'+esc(S.monthly)+'</p><p class="ap2-none" id="ap2-nodue">'+esc(S.noDue)+'</p>'+
+ '<div class="ap2-mh"><button type="button" id="ap2-prev" aria-label="'+esc(S.prev)+'">'+svg(I.l,24)+'</button><b id="ap2-mtitle"></b><button type="button" id="ap2-next" aria-label="'+esc(S.next)+'">'+svg(I.r,24)+'</button></div>'+
+ '<div class="ap2-cal" id="ap2-grid"></div><div class="ap2-list" id="ap2-list"></div>'+
+'</div></div>';
+
+function $(id){return document.getElementById(id);}
+function nextDue(p){return addMonths(p.first,0);} // nessuna rata pagata: prima scadenza
+function dueDatesAll(){var r={};st.plans.forEach(function(p){for(var i=0;i<p.n;i++){r[key(addMonths(p.first,i))]=1;}});return r;}
+function countOn(d){return st.plans.filter(function(p){return sameDay(nextDue(p),d);}).length;}
+function msg(d,isToday){
+  var c=countOn(d),m=S.msg;
+  if(c===0)return isToday?m.n0t:m.n0d;
+  if(c===1)return isToday?m.n1t:m.n1d;
+  return (isToday?m.nt:m.nd).replace('{n}',c);
 }
-function provName(plan){var p=P[plan.preset];if(p.id==='custom')return C.str.other;return p.label.split(/ [–-] | \(/)[0];}
-var seq=0;
-function addPlan(){
-  var plan={preset:C.def,total:'',start:iso(new Date()),name:'',n:3,step:'d30'};plans.push(plan);
-  var id='p'+(++seq),card=mk('div',{'class':'ap-plan'});
-  var rm=mk('button',{type:'button','class':'ap-rm'},C.str.remove);rm.addEventListener('click',function(){var k=plans.indexOf(plan);plans.splice(k,1);root.removeChild(card);refresh();});
-  var head=mk('div',{'class':'ap-ph'});var ttl=mk('span',{'class':'ap-pt'},'');head.appendChild(ttl);head.appendChild(rm);card.appendChild(head);
-  var g=mk('div',{'class':'ap-g'});
-  var sel=mk('select',{id:id+'s'});C.presets.forEach(function(p){var o=mk('option',{value:p.id},p.label);if(p.id===plan.preset)o.selected=true;sel.appendChild(o);});
-  var tot=mk('input',{id:id+'t',type:'number',min:'0',step:'0.01',inputmode:'decimal',placeholder:'0.00'});
-  var st=mk('input',{id:id+'d',type:'date',value:plan.start});
-  var nm=mk('input',{id:id+'n',type:'text',maxlength:'40',placeholder:C.str.namePh});
-  g.appendChild(field(C.str.provider,sel));g.appendChild(field(C.str.total,tot));g.appendChild(field(C.str.start,st,C.str.startHelp));g.appendChild(field(C.str.name,nm));
-  var cn=mk('input',{id:id+'c',type:'number',min:'1',max:'12',step:'1',value:'3'});
-  var ci=mk('select',{id:id+'i'});[['d14',C.str.i14],['d30',C.str.i30],['m1',C.str.im1]].forEach(function(x){var o=mk('option',{value:x[0]},x[1]);if(x[0]==='d30')o.selected=true;ci.appendChild(o);});
-  var cw=mk('div',{'class':'ap-g'});cw.style.display='none';cw.style.marginTop='12px';cw.appendChild(field(C.str.count,cn));cw.appendChild(field(C.str.interval,ci));
-  var hint=mk('p',{'class':'ap-hint'},hintFor(plan));
-  card.appendChild(g);card.appendChild(cw);card.appendChild(hint);root.appendChild(card);
-  function sync(){plan.preset=sel.value;plan.total=tot.value;plan.start=st.value;plan.name=nm.value.trim();plan.n=cn.value;plan.step=ci.value;cw.style.display=plan.preset==='custom'?'grid':'none';hint.textContent=hintFor(plan);refresh();}
-  [sel,tot,st,nm,cn,ci].forEach(function(e){e.addEventListener('input',sync);e.addEventListener('change',sync);});
-  refresh();
+function validState(){
+  var t=parseAmount(st.total);
+  return !!(st.title.trim()&&st.merchant.trim()&&st.prov&&st.src&&t>0&&st.n>0&&st.first);
 }
-function monthKey(d){return d.getFullYear()*12+d.getMonth();}
-var BAG='<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M6.2 7.5h11.6a1 1 0 0 1 1 .9l1 11a1.5 1.5 0 0 1-1.5 1.6H5.7a1.5 1.5 0 0 1-1.5-1.6l1-11a1 1 0 0 1 1-.9zM9 9.8a.9.9 0 1 0 0 1.8.9.9 0 0 0 0-1.8zm6 0a.9.9 0 1 0 0 1.8.9.9 0 0 0 0-1.8z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M8.6 7.5V6.6a3.4 3.4 0 0 1 6.8 0v.9"/></svg>';
-var WAL='<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path fill="currentColor" d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A1.5 1.5 0 0 1 19 5.5V7h-1V5.5a.5.5 0 0 0-.5-.5h-11A1.5 1.5 0 0 0 5 6.5V7h14.5A1.5 1.5 0 0 1 21 8.5v9a2.5 2.5 0 0 1-2.5 2.5h-12A2.5 2.5 0 0 1 4 17.5zM16.5 12.2a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 0 0 0-2.6z"/></svg>';
-function calendar(ev,hotDays){
-  var first=monthKey(ev[0].date),last=monthKey(ev[ev.length-1].date);
-  if(!view||monthKey(view)<first||monthKey(view)>last)view=new Date(ev[0].date.getFullYear(),ev[0].date.getMonth(),1);
-  var on={};ev.forEach(function(e,ix){var k=iso(e.date);on[k]=Math.max(on[k]||0,hotDays[ix]?2:1);});
-  var box=mk('div',{'class':'ap-card ap-cal'});
-  box.appendChild(mk('div',{'class':'ap-ct'},C.str.monthTitle));
-  var nav=mk('div',{'class':'ap-nav'});
-  var pb=mk('button',{type:'button','class':'ap-arr','aria-label':C.str.prev},'‹'),nb=mk('button',{type:'button','class':'ap-arr','aria-label':C.str.next},'›');
-  pb.disabled=monthKey(view)<=first;nb.disabled=monthKey(view)>=last;
-  pb.addEventListener('click',function(){view=new Date(view.getFullYear(),view.getMonth()-1,1);refresh();});
-  nb.addEventListener('click',function(){view=new Date(view.getFullYear(),view.getMonth()+1,1);refresh();});
-  nav.appendChild(pb);nav.appendChild(mk('span',{'class':'ap-mn'},mlong(view)));nav.appendChild(nb);box.appendChild(nav);
-  var gr=mk('div',{'class':'ap-cg',role:'grid'});
-  C.str.dow.forEach(function(x){gr.appendChild(mk('span',{'class':'ap-dw'},x));});
-  var y=view.getFullYear(),m=view.getMonth(),off=new Date(y,m,1).getDay(),nd=new Date(y,m+1,0).getDate(),today=iso(new Date());
-  for(var i=0;i<off;i++)gr.appendChild(mk('span',{'class':'ap-d ap-e'},''));
-  for(var d=1;d<=nd;d++){var k=y+'-'+pad(m+1)+'-'+pad(d),c='ap-d';if(on[k])c+=on[k]===2?' ap-on ap-hot':' ap-on';if(k===today)c+=' ap-today';gr.appendChild(mk('span',{'class':c},String(d)));}
-  box.appendChild(gr);return box;
+function renderForm(){
+  var t=parseAmount(st.total);
+  $('ap2-mon').textContent=money(st.n>0?t/st.n:0);
+  var ok=validState();
+  $('ap2-save').disabled=!ok;$('ap2-err').style.display=ok?'none':'block';
+  var d=parseDate(st.first);$('ap2-dt').textContent=d?fmtFull.format(d):S.selDate;
 }
-function refresh(){
-  var rmAll=root.querySelectorAll('.ap-rm'),tt=root.querySelectorAll('.ap-pt');
-  for(var i=0;i<rmAll.length;i++){rmAll[i].style.display=plans.length>1?'':'none';tt[i].textContent=C.str.planCard+' '+(i+1);}
-  var out=document.getElementById('calc-out'),ev=allEvents(plans);out.textContent='';
-  if(!ev.length){out.appendChild(mk('p',{'class':'ap-empty'},C.str.empty));return;}
-  var hv=heaviest(ev),hot={};
-  if(hv){for(var k=hv.from;k<=hv.to;k++)hot[k]=1;out.appendChild(mk('div',{'class':'ap-alert'},C.str.heavy.replace('{sum}',money(hv.sum)).replace('{count}',hv.count).replace('{from}',fdate(ev[hv.from].date)).replace('{to}',fdate(ev[hv.to].date))));}
-  else out.appendChild(mk('div',{'class':'ap-ok'},C.str.none));
-  out.appendChild(calendar(ev,hot));
-  var left={};ev.forEach(function(e){left[e.plan]=(left[e.plan]||0)+e.cents;});
-  var list=mk('div',{'class':'ap-list'}),sum=0,months={},order=[];
-  ev.forEach(function(e,ix){
-    var pl=plans[e.plan],card=mk('div',{'class':'ap-card ap-row'+(hot[ix]?' ap-rhot':'')});
-    var top=mk('div',{'class':'ap-r1'});top.appendChild(mk('b',{'class':'ap-rt'},pl.name||(C.str.planCard+' '+(e.plan+1))));top.appendChild(mk('b',{'class':'ap-ra'},money(e.cents)));card.appendChild(top);
-    var mid=mk('div',{'class':'ap-r2'});var l2=mk('span',{'class':'ap-pv'});var ic=mk('span',{'class':'ap-bag','aria-hidden':'true'});ic.innerHTML=BAG;l2.appendChild(ic);var w=mk('span',{'class':'ap-wal','aria-hidden':'true'});w.innerHTML=WAL;l2.appendChild(w);l2.appendChild(document.createTextNode(provName(pl)+' ('+e.n+'x)'));mid.appendChild(l2);mid.appendChild(mk('b',{'class':'ap-rd'},mshort(e.date)));card.appendChild(mid);
-    var bot=mk('div',{'class':'ap-r3'});bot.appendChild(mk('span',null,C.str.inst.replace('{i}',e.i).replace('{n}',e.n)));bot.appendChild(mk('span',{'class':'ap-rem'},C.str.rem.replace('{amt}',money(left[e.plan]))));card.appendChild(bot);
-    left[e.plan]-=e.cents;list.appendChild(card);sum+=e.cents;
-    var key=monthKey(e.date);if(!(key in months)){months[key]=0;order.push([key,e.date]);}months[key]+=e.cents;
+function renderCal(){
+  $('ap2-today').textContent=fmtFull.format(today);
+  var tm=$('ap2-tmsg');tm.textContent=msg(today,true);tm.style.color=countOn(today)>0?'#E85D5D':'#94A3B8';
+  var diff=!sameDay(st.sel,today);
+  $('ap2-back').style.display=diff?'block':'none';
+  $('ap2-view').style.display=diff?'block':'none';
+  if(diff){$('ap2-vd').textContent=fmtFull.format(st.sel);var vm=$('ap2-vm');vm.textContent=msg(st.sel,false);vm.style.color=countOn(st.sel)>0?'#E85D5D':'#94A3B8';}
+  var win=new Date(today.getFullYear(),today.getMonth(),today.getDate()+30,23,59,59);
+  var soon=st.plans.filter(function(p){var d=nextDue(p);return d>=today&&d<=win;}).sort(function(a,b){return nextDue(a)-nextDue(b);});
+  $('ap2-nodue').style.display=soon.length?'none':'block';
+  // month grid
+  $('ap2-mtitle').textContent=fmtMonth.format(st.month);
+  var due=dueDatesAll(),first=st.month,dim=new Date(first.getFullYear(),first.getMonth()+1,0).getDate(),off=first.getDay(),h='';
+  S.dow.forEach(function(w){h+='<i>'+esc(w)+'</i>';});
+  for(var i=0;i<off;i++)h+='<div class="ap2-d"></div>';
+  for(var d=1;d<=dim;d++){
+    var dt=new Date(first.getFullYear(),first.getMonth(),d),k=key(dt),c='';
+    if(k===key(st.sel))c='sel';else{if(due[k])c+='due ';if(k===key(today))c+='tod';}
+    h+='<div class="ap2-d"><button type="button" data-d="'+iso(dt)+'" class="'+c.trim()+'" aria-label="'+esc(fmtFull.format(dt))+(due[k]?' · '+esc(S.dueDay):'')+'"'+(k===key(st.sel)?' aria-pressed="true"':'')+'>'+d+'</button></div>';
+  }
+  $('ap2-grid').innerHTML=h;
+  var L='';
+  soon.forEach(function(p){
+    var dd=nextDue(p),isT=sameDay(dd,today),hl=sameDay(dd,st.sel),mo=p.total/p.n;
+    L+='<div class="ap2-card'+(hl?' hl':'')+'">'+svg(I.shop,24)+'<div class="ap2-mid"><b>'+esc(p.title)+'</b><span>'+svg(I.wallet,14)+esc(p.prov)+' ('+p.n+'x)</span><span>'+esc(S.inst.replace('{i}',1).replace('{n}',p.n))+'</span></div>'+
+      '<div class="ap2-r"><b>'+esc(money(mo))+'</b><span class="ap2-st'+(isT?' t':'')+'">'+esc(isT?S.todayLbl:fmtShort.format(dd))+'</span><small>'+esc(S.rem)+' '+esc(money(p.total))+'</small></div></div>';
   });
-  out.appendChild(list);
-  var mc=mk('div',{'class':'ap-card ap-mt'});
-  order.forEach(function(o){var r=mk('div',{'class':'ap-mr'});r.appendChild(mk('span',null,mlong(o[1])));r.appendChild(mk('b',null,money(months[o[0]])));mc.appendChild(r);});
-  out.appendChild(mc);
-  var stt=mk('div',{'class':'ap-card ap-stats'});
-  [[C.str.totalAll,money(sum)],[C.str.payN,String(ev.length)],[C.str.plans,String(plans.filter(function(p){return schedule(p).length;}).length)]].forEach(function(x){var c=mk('div',{'class':'ap-s'});c.appendChild(mk('span',{'class':'ap-sl'},x[0]));c.appendChild(mk('b',{'class':'ap-sv'},x[1]));stt.appendChild(c);});
-  out.appendChild(stt);
-  out.appendChild(mk('p',{'class':'ap-note'},C.str.note));
+  $('ap2-list').innerHTML=L;
 }
-document.getElementById('calc-add').addEventListener('click',addPlan);
-var cur=document.getElementById('calc-cur');cur.value=C.currency;cur.addEventListener('change',function(){C.currency=cur.value;refresh();});
-addPlan();
+function bind(id,k){$(id).addEventListener('input',function(){st[k]=this.value;renderForm();});}
+bind('ap2-title','title');bind('ap2-merch','merchant');bind('ap2-total','total');
+$('ap2-cat').addEventListener('change',function(){st.cat=this.value;});
+$('ap2-prov').addEventListener('change',function(){st.prov=this.value;renderForm();});
+$('ap2-src').addEventListener('change',function(){st.src=this.value;renderForm();});
+$('ap2-date').addEventListener('change',function(){st.first=this.value;renderForm();});
+$('ap2-date').addEventListener('click',function(){try{this.showPicker();}catch(e){}});
+$('ap2-pick').addEventListener('click',function(){try{this.showPicker();}catch(e){}});
+$('ap2-pick').addEventListener('change',function(){var d=parseDate(this.value);if(d){st.sel=d;st.month=new Date(d.getFullYear(),d.getMonth(),1);renderCal();}});
+Array.prototype.forEach.call(root.querySelectorAll('.ap2-chips button'),function(b){b.addEventListener('click',function(){st.n=+b.getAttribute('data-n');Array.prototype.forEach.call(root.querySelectorAll('.ap2-chips button'),function(x){x.setAttribute('aria-pressed',String(x===b));});renderForm();});});
+$('ap2-cur').addEventListener('change',function(){cur=this.value;renderForm();renderCal();});
+$('ap2-prev').addEventListener('click',function(){st.month=new Date(st.month.getFullYear(),st.month.getMonth()-1,1);renderCal();});
+$('ap2-next').addEventListener('click',function(){st.month=new Date(st.month.getFullYear(),st.month.getMonth()+1,1);renderCal();});
+$('ap2-back').addEventListener('click',function(){st.sel=today;st.month=new Date(today.getFullYear(),today.getMonth(),1);renderCal();});
+$('ap2-grid').addEventListener('click',function(e){var b=e.target.closest('button[data-d]');if(!b)return;st.sel=parseDate(b.getAttribute('data-d'));renderCal();});
+$('ap2-save').addEventListener('click',function(){
+  if(!validState())return;
+  st.plans.push({title:st.title.trim(),merchant:st.merchant.trim(),prov:st.prov,n:st.n,first:parseDate(st.first),total:parseAmount(st.total)});
+  st.title=st.merchant=st.total='';st.cat='';st.prov='';st.src='cc';st.n=3;st.first='';
+  ['ap2-title','ap2-merch','ap2-total','ap2-date'].forEach(function(i){$(i).value='';});
+  $('ap2-cat').value='';$('ap2-prov').value='';$('ap2-src').value='cc';
+  Array.prototype.forEach.call(root.querySelectorAll('.ap2-chips button'),function(x){x.setAttribute('aria-pressed',String(x.getAttribute('data-n')==='3'));});
+  var f=st.plans[st.plans.length-1].first;st.month=new Date(f.getFullYear(),f.getMonth(),1);
+  renderForm();renderCal();
+  var cs=$('ap2-calscr');if(cs&&cs.scrollIntoView)cs.scrollIntoView({block:'start'});
+});
+renderForm();renderCal();
 })();
 </script>
 <footer class="site-foot"><span class="blob b1" data-p="-0.12" aria-hidden="true"></span><div class="wrap">
