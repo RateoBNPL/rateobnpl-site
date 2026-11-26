@@ -30,6 +30,7 @@ Rateo is an independent tool. It does not lend money, does not pay installments,
 - [Rateo, fogli di calcolo e altre app BNPL: come scegliere](https://rateobnpl.com/it/guide/rateo-vs-fogli-di-calcolo-e-altre-app-bnpl/)
 - [PayPal Paga in 3 rate: calendario, scadenze e come non perdere il conto](https://rateobnpl.com/it/guide/paypal-paga-in-3-rate-calendario-scadenze/)
 - [PayPal Paga in 3 rate: cosa succede se non riesci a pagare una rata](https://rateobnpl.com/it/guide/paypal-paga-in-3-rate-cosa-succede-se-non-paghi/)
+- [Satispay «Paga in 3»: come funzionano le rate, le scadenze e cosa succede se non c'è saldo](https://rateobnpl.com/it/guide/satispay-paga-in-3-rate-calendario-scadenze/)
 
 ## Anleitungen (Deutsch)
 - [Klarna-, Afterpay- und Affirm-Zahlungen an einem Ort im Blick behalten](https://rateobnpl.com/de/anleitungen/klarna-afterpay-affirm-zahlungen-an-einem-ort/)
